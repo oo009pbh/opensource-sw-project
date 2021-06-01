@@ -1,0 +1,27 @@
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.2);
+}
+.site-layout .site-layout-background {
+  height: 100vh;
+  background: #fff;
+}
+[data-theme="dark"] .site-layout .site-layout-background {
+  height: 100vh;
+  background: #141414;
+}
+[class~="ant-row"] {
+  background: rgba(128, 128, 128, 0.08);
+}
+.code-box-demo p {
+  margin: 0;
+}
+.ant-card {
+  margin-bottom: 30px;
+}
+.button-restaurant{
+  height : 100px;
+}
