@@ -10,7 +10,7 @@ const Home = () => {
             <Col span={11}>
                 <Image
                     style={{ padding :"2em" }}
-                    width={800}
+                    width={"100%"}
                     src={foodmap}
                     />
             </Col>

@@ -25,3 +25,40 @@
 .button-restaurant{
   height : 100px;
 }
+#container {
+  width: 100vw;
+  height: 100vh;
+  background: url("./image/opening/opening.png");
+  background-size: 100% 100%;
+  background-position: center;
+}
+#kakao {
+  position: absolute;
+  top: 82vh;
+  left: 50%;
+  transform: translate(-50% , 0 );
+}
+#borderStyleb { 
+  border: '1px solid palevioletred';
+  text-align:"center"; 
+  line-height:"100px"; 
+}
+#borderStyles { 
+  border: '1px solid palevioletred';
+  text-align:"center"; 
+  line-height:"50px"; 
+}
+#rowStyle { 
+  border: '1px solid palevioletred'; 
+  text-align:"center"; 
+  width: '100%';
+  padding: 10;
+}
+
+[class~="ant-row"]{
+  background-color: #FECCBE;
+} 
+[class~="ant-layout-content"]{
+  background-color: #FD8A69;
+}
+
